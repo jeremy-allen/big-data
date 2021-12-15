@@ -10,8 +10,8 @@ editor_options:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(include = FALSE)
 
-#library(here)
-#library(imputeTS)
+library(here)
+library(imputeTS)
 library(data.table)
 #library(pins)
 
@@ -34,7 +34,7 @@ us <- fread(
 )
 
 # get table of initial closure dates
-stay_at_home_table <- fread("https://raw.githubusercontent.com/jeremy-allen/covid-deaths/main/home_dates.csv")
+#stay_at_home_table <- fread("https://raw.githubusercontent.com/jeremy-allen/covid-deaths/main/home_dates.csv")
 
 ```
 
