@@ -13,7 +13,7 @@ knitr::opts_chunk$set(include = FALSE)
 library(here)
 library(imputeTS)
 library(data.table)
-#library(pins)
+library(pins)
 
 ```
 
